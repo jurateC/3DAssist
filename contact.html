@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>3DAssist</title>
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:ital@1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script>
+		function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+                }
+	</script>
+	<!--<title> Responsive Footer | CodingLab</title>-->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+	 crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content=" contact page of the 3DAssist website">
+	<meta name="author" content="CDM 2024 group P">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+</head>
+
+<body>
+	<div class="coltop">
+		<img id="logo" src="images/3Dlogo-1.png" alt="logo of 3DAssist">
+    </div>
+    <hr>
+    <nav>
+      <div class="topbar">
+        <h1>3DAssist</h1>
+        <div class="topnav" id="myTopnav">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <a href="index.html">Our Story</a>
+          <a href="kids.html">Our Heroes</a>
+          <a href="parents.html">Parent's Lair</a>
+          <a href="contact.html">Contact us</a>
+        </div>
+      </div>
+    </nav>
+    <hr>
+    <div class="comicrow">
+      <img id="comicheader" src="images/contactpage.png" alt="ilustration of contact page title">
+    </div>
+    <div class="page">
+      <div class="pagerow1">
+        <div class="coltwo">
+          <a href="donate.html" target="_blank"><img id="donate1" src="images/Donate.png" alt="ilustration of donate button"></a>
+        </div>
+        <div class="coltwo">
+         <div class="form_box">
+          <form class="rotate_back" action="user.html">
+            <fieldset>
+              <h6>
+                <label for="name">Name</label><br>
+                <input id="name" type="text" name="Name"><br>
+                <label for="email">Email</label><br>
+                <input id="email" type="email" name="Email"><br>
+                <label for="message">Message</label><br>
+              </h6>
+              <textarea id="message" name="Message"></textarea>
+            </fieldset>
+            <fieldset>
+              <div class="buttons">
+                <button class="form_button" type="submit">Submit</button>
+              </div>
+              <div class="buttons">
+               <button class="form_button" type="reset">Clear</button>
+              </div>
+              </fieldset>   
+            </form>
+         </div>
+        </div>
+      </div>
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.9136084328557!2d-6.365643784024934!3d53.29108258655012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670b4b8ec071f5%3A0xb6cf7501e0d9522a!2sTU%20Dublin%2C%20Tallaght!5e0!3m2!1sen!2sie!4v1639155297039!5m2!1sen!2sie" width="100%" height="210"  loading="lazy">
+        </iframe>
+      </div>
+    </div>
+    <footer>
+      <div class="content">
+        <div class="colfooter">
+          <div class="upper">
+            <div class="topic">Contact us
+            </div>
+            <div class="phone">
+              <a href="#"><i class="fas fa-phone-volume"></i>(01) 404 2000</a>
+            </div>
+            <div class="email">
+              <a href="https://www.instagram.com/3dassist.tallaght/?hl=en"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/3DAssistTallaght"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="colfooter">
+          <div class="topic"> Find Us
+        </div>
+        <p class="footertext">Blessington Rd, Tallaght, Dublin 24, D24 FKT9</p>
+        <br>
+        <div class="bottom">
+        <p>Revenue (Charities Unit): 20203675<br><br>
+Charitites Regulatory Authority (CRA): 20203675</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
